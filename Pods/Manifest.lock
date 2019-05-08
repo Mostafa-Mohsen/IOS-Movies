@@ -1,0 +1,60 @@
+PODS:
+  - AFNetworking (2.7.0):
+    - AFNetworking/NSURLConnection (= 2.7.0)
+    - AFNetworking/NSURLSession (= 2.7.0)
+    - AFNetworking/Reachability (= 2.7.0)
+    - AFNetworking/Security (= 2.7.0)
+    - AFNetworking/Serialization (= 2.7.0)
+    - AFNetworking/UIKit (= 2.7.0)
+  - AFNetworking/NSURLConnection (2.7.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.7.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.7.0)
+  - AFNetworking/Security (2.7.0)
+  - AFNetworking/Serialization (2.7.0)
+  - AFNetworking/UIKit (2.7.0):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - DGActivityIndicatorView (2.1.1)
+  - FTPopOverMenu (2.0.3)
+  - HCSStarRatingView (1.5)
+  - Realm (3.13.1):
+    - Realm/Headers (= 3.13.1)
+  - Realm/Headers (3.13.1)
+  - SDWebImage (4.4.6):
+    - SDWebImage/Core (= 4.4.6)
+  - SDWebImage/Core (4.4.6)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.0)
+  - DGActivityIndicatorView
+  - FTPopOverMenu
+  - HCSStarRatingView (~> 1.5)
+  - Realm
+  - SDWebImage (~> 4.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - DGActivityIndicatorView
+    - FTPopOverMenu
+    - HCSStarRatingView
+    - Realm
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  AFNetworking: 8dd5f9b9691e09186393069a12cc3b5ed7c8b511
+  DGActivityIndicatorView: ff2c76073d79692f724863c8dd38685866a03cb6
+  FTPopOverMenu: 8aa89de66e72b53db3e7eeab42243d393237768f
+  HCSStarRatingView: 1d18f79654735514cd6f00e6d90e38cb6320dc31
+  Realm: 50071da38fe079e0735e47c9f2eae738c68c5996
+  SDWebImage: 3f3f0c02f09798048c47a5ed0a13f17b063572d8
+
+PODFILE CHECKSUM: 0a7e433673b738a7026f946d5b106dacd30738a0
+
+COCOAPODS: 1.6.1
